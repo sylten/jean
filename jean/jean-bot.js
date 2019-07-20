@@ -5,7 +5,7 @@ var jean = require('./jean-core');
 
 var names = ["jean","jean-pierre","jeanpierre","pjär","pierre", "jp"];
 var favoriteReactions = ["cristal", "champagne", "100", "joy", "heart_eyes", "retarderad", "money_with_wings", "niclaz", "wine_glass", "kosken", "explorer", "bira", "beer"];
-var mainChannel = "test";
+var mainChannel = "general";
 
 var ambientReplyingEnabled = false;
 var mentionReplyingEnabled = true;
