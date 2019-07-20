@@ -1,0 +1,13 @@
+{
+  "name": "jean",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "botkit": "0.5.1",
+    "markov": "0.0.7",
+    "moment": "2.17.1",
+    "node-schedule": "1.2.1"
+  },
+  "devDependencies": {}
+}
