@@ -1,13 +1,13 @@
 const express = require('express');
 const http = require('http');
 
-var jean = require('./server/jean/jean-core');
-var jeanApi = require('./server/jean/jean-api');
-var jeanBot = require('./server/jean/jean-bot');
+var jean = require('./jean/jean-core');
+var jeanApi = require('./jean/jean-api');
+var jeanBot = require('./jean/jean-bot');
 
 const app = express();
 
-app.use('/jpi', jeanApi);
+app.use('/jean', jeanApi);
 
 app.all('/*', (req, res) => {
   res.send("hej");
