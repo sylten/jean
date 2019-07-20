@@ -21,7 +21,11 @@ var lastMessageTime = new Date().getTime();
 var muted = 0;
 var muteTime = 36000000;
 
-var controller = Botkit.slackbot();
+var controller = Botkit.slackbot({
+    clientId: '24625820726.689300923426',
+    clientSecret: '8e346840002203a7852e80cfe1a15cbe',
+    scopes: ['bot']
+});
 var superSafeToken = "x_o_x_b_-_5_2_1_8_2_1_6_3_2_0_2_-_L_k_m_1_y_i_E_5_4_O_E_X_x_g_P_D_t_d_m_t_J_B_4_O";
 var bot = controller.spawn({
   	token: superSafeToken.replace(new RegExp("_", 'g'), "")

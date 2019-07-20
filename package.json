@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {},
   "dependencies": {
-    "botkit": "0.5.1",
+    "botkit": "4.0.2",
     "markov": "0.0.7",
     "moment": "2.24.0",
     "node-schedule": "1.3.2"
